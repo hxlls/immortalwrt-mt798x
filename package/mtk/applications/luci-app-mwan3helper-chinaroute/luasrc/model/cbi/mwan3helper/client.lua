@@ -19,5 +19,5 @@ o = s:option(Value, "dns", translate("转发流量至IP"))
 o = s:option(Value, "dev", translate("设备"))
 o = s:option(Flag, "dnsen", translate("启用 DNS 防污染"))
 o.rmempty = false
-o = s:option(Value, "dnsserver", translate("Anti-pollution DNS Server"))
+o = s:option(Value, "dnsserver", translate("防污染DNS服务器"))
 return m
